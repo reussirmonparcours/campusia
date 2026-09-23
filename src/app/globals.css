@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Navy */
+  --color-navy-50: #f4f6f8;
+  --color-navy-100: #e3e8ee;
+  --color-navy-200: #cdd8e1;
+  --color-navy-300: #adc1cf;
+  --color-navy-400: #88a3b8;
+  --color-navy-500: #6a869e;
+  --color-navy-600: #546a82;
+  --color-navy-700: #44566a;
+  --color-navy-800: #3a4858;
+  --color-navy-900: #333d4b;
+  --color-navy-950: #222934;
+
+  /* Brand Gold */
+  --color-gold-50: #fbf9ec;
+  --color-gold-100: #f5f0ce;
+  --color-gold-200: #ecdf9c;
+  --color-gold-300: #e2c962;
+  --color-gold-400: #d8b233;
+  --color-gold-500: #c99a22;
+  --color-gold-600: #ad7c1a;
+  --color-gold-700: #8b5d18;
+  --color-gold-800: #744b1a;
+  --color-gold-900: #623e1a;
+  --color-gold-950: #38200b;
+
+  /* Surfaces & Backgrounds */
+  --color-bg-base: #f8fafc;
+  --color-surface-base: #ffffff;
+  --color-surface-elevated: #ffffff;
+  --color-surface-muted: #f1f5f9;
+
+  /* Text Colors */
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #64748b;
+  --color-text-muted: #94a3b8;
+  --color-text-inverse: #ffffff;
+
+  /* Borders */
+  --color-border-default: #e2e8f0;
+  --color-border-subtle: #f1f5f9;
+  --color-border-focus: var(--color-navy-500);
+
+  /* Semantic Colors */
+  --color-success-base: var(--color-emerald-600);
+  --color-success-bg: var(--color-emerald-50);
+  --color-success-text: var(--color-emerald-800);
+  
+  --color-warning-base: var(--color-amber-500);
+  --color-warning-bg: var(--color-amber-50);
+  --color-warning-text: var(--color-amber-900);
+  
+  --color-error-base: var(--color-rose-600);
+  --color-error-bg: var(--color-rose-50);
+  --color-error-text: var(--color-rose-800);
+  
+  --color-info-base: var(--color-blue-600);
+  --color-info-bg: var(--color-blue-50);
+  --color-info-text: var(--color-blue-800);
+
+  /* Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-subtle: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-medium: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-strong: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+
+  /* Motion */
+  --animate-duration-fast: 150ms;
+  --animate-duration-normal: 250ms;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-base);
+    color: var(--color-text-primary);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}

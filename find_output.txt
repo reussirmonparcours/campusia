@@ -1,0 +1,1 @@
+supabase\migrations\20260922000009_m10_8_entitlement_periods.sql:  -- We DO NOT cancel the old subscription! It continues serving entitlements until v_base_date.

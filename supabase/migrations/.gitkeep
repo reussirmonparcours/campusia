@@ -1,0 +1,3 @@
+# Supabase migrations folder
+# Format convention: YYYYMMDDHHMMSS_description.sql
+# Example: 20260918120000_initial_schema.sql
